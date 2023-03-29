@@ -1,0 +1,63 @@
+body {
+    transition: p .5s;
+    transition-delay: 1s;
+}
+html {
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: cyan;
+    border: 1px solid transparent;
+}
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid cyan;
+}
+input[type='submit'] {
+    background-color: cyan;
+}
+#result, #working {
+    display: none;
+}
+
+/* table, th, td {
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    min-width: 40px;
+    min-height: 20px;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+table tr:nth-child(even) {
+    background-color: #ccffff; 
+} */
+
+#error {display: none;}
+
+/*   
+.container {
+    position: relative;
+    margin: 5px auto;
+    padding: 20px 2% 20px 2%;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    border-radius: 10px;
+}
+
+input[type='text'] {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 98%;
+    }
+} */
